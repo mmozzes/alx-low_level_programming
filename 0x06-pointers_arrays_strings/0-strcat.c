@@ -8,7 +8,7 @@
  * Return: Apointer to the destinatin string @dest.
  */
 
-char *strcat(char *dest, const char *scr)
+char *_strcat(char *dest, const char *scr)
 {
 	int index = 0, dest_len = 0;
 
