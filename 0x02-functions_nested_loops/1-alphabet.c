@@ -3,16 +3,17 @@
 
 
 /**
- * main - prints letters of the alphabet using _putchar
+ * print_alphabet - prints letters of the alphabet using _putchar
  * Return: 0
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	void print_alphabet;
+	char alphabet = 'a';
 
-	_putchar(print_alphabet);
-	_putchar('\n');
-
-	return (0);
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	{
+		_putchar(alphabet);
+		_putchar('\n');
+	}
 }
