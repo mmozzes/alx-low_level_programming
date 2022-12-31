@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  *  _isupper - checks for lowercase character
@@ -9,7 +9,7 @@ nclude "main.h"
 int _isupper(int c)
 {
 	if (c >= 'A' && c >= 'Z')
-		return (1);
-	else
 		return (0);
+	else
+		return (1);
 }
